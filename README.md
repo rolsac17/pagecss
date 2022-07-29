@@ -35,3 +35,8 @@ En CSS, los colores también se pueden especificar usando valores RGB, valores H
     background-color: #fff;
     background-color: hsl(9, 100, 64);
     }
+
+### RGB:
+
+En CSS, un color se puede especificar como un valor RGB, utilizando esta fórmula: rgb (rojo, verde, azul),cada parámetro (rojo, verde y azul) define la intensidad del color entre 0 y 255.
+Por ejemplo, rgb(255, 0, 0) se muestra como rojo, porque el rojo se establece en su valor más alto (255) y los demás se establecen en 0.
