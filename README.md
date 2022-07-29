@@ -163,14 +163,48 @@ Está propiedad especifica qué tipo de borde mostrar, puede tener de uno a cuat
 - none: No define ningún borde
 - hidden: Define un borde oculto
 
-  p.dotted {border-style: dotted;}
-  p.dashed {border-style: dashed;}
-  p.solid {border-style: solid;}
-  p.double {border-style: double;}
-  p.groove {border-style: groove;}
-  p.ridge {border-style: ridge;}
-  p.inset {border-style: inset;}
-  p.outset {border-style: outset;}
-  p.none {border-style: none;}
-  p.hidden {border-style: hidden;}
-  p.mix {border-style: dotted dashed solid double;}
+```
+  p {
+  border-style: dotted;
+  }
+
+  p {
+  border-style: dashed;
+  }
+
+  p {
+  border-style: solid;
+  }
+
+  p {
+  border-style: double;
+  }
+
+  p {
+  border-style: groove;
+  }
+
+  p {
+  border-style: ridge;
+  }
+
+  p {
+  border-style: inset;
+  }
+
+  p {
+  border-style: outset;
+  }
+
+  p {
+  border-style: none;
+  }
+
+  p {
+  border-style: hidden;
+  }
+
+  p {
+  border-style: dotted dashed solid double;
+  }
+```
