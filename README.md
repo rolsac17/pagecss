@@ -52,7 +52,7 @@ En CSS, un color se puede especificar utilizando el tono, la saturación y la lu
 
 ## Fondos CSS:
 
-### background-color:
+## background-color:
 
 Está propiedad especifica el color de fondo de un elemento.
 
@@ -60,7 +60,7 @@ Está propiedad especifica el color de fondo de un elemento.
     background-color: lightblue;
     }
 
-#### opacity
+### Opacity
 
 La propiedad especifica la opacidad/transparencia de un elemento. Puede tomar un valor de 0.0 - 1.0. Cuanto menor sea el valor, más transparente.
 
@@ -73,7 +73,7 @@ La propiedad especifica la opacidad/transparencia de un elemento. Puede tomar un
     background: rgba(0, 128, 0, 0.3) /* Green background with 30% opacity */
     }
 
-### background-image:
+## background-image:
 
 Está propiedad especifica una imagen para usar como fondo de un elemento, tiene que referenciar bien la ruta en donde se encuentra la imagen.
 
@@ -81,7 +81,7 @@ Está propiedad especifica una imagen para usar como fondo de un elemento, tiene
     background-image: url("paper.gif");
     }
 
-### background-repeat:
+## background-repeat:
 
 Está propiedad repite una imagen tanto horizontal como verticalmente, Algunas imágenes deben repetirse solo horizontal o verticalmente, o se verán extrañas.
 
@@ -110,7 +110,7 @@ La propiedad también especifica mostrar la imagen de fondo solo una vez:
     background-repeat: no-repeat;
     }
 
-#### Posición de Fondos CSS
+### Posición de Fondos CSS
 
 Está propiedad se utiliza para especificar la posición de la imagen de fondo, en el ejemplo
 se coloca la imagen en la esquina superior derecha.
@@ -121,7 +121,7 @@ se coloca la imagen en la esquina superior derecha.
     background-position: right top;
     }
 
-### background-attachment:
+## background-attachment:
 
 Está propiedad especifica si la imagen de fondo debe desplazarse o ser fija (no se desplazará con el resto de la página), en el ejemplo la imagen es fija.
 
@@ -141,7 +141,7 @@ En el ejemplo la imagen de fondo debe desplazarse con el resto de la página.
     background-attachment: scroll;
     }
 
-### background:
+## background:
 
 Para acortar el código, también es posible especificar todas las propiedades de fondo en una sola propiedad. Esto se llama una propiedad abreviada.
 
