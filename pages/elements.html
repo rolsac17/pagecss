@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wiki - Elementos</title>
-    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Elementos</title>
+    <link rel="stylesheet" href="../css/styles.css" />
   </head>
   <body>
     <div class="layout">
@@ -13,24 +13,27 @@
         <div class="header__top">
           <img
             class="header__top--img"
-            src="/public/images/1200px-HTML5_logo_and_wordmark.svg.png"
+            src="../public/images/html.png"
             alt="logo html5"
           />
           <div class="header__top--description">
             <h1>Desarrollo web</h1>
-            <p>Introduccion a HTML5</p>
+            <p>Introduccion a HTML y CSS</p>
           </div>
         </div>
         <nav class="nav-header">
           <ul class="nav-header__content">
             <li class="nav-header__content--items">
-              <a href="/">Inicio</a>
+              <a href="../index.html">Inicio</a>
             </li>
             <li class="nav-header__content--items">
-              <a href="/">Elementos</a>
+              <a href="./elements.html">Elementos</a>
             </li>
             <li class="nav-header__content--items">
-              <a href="/">Atributos</a>
+              <a href="./attributes.html">Atributos</a>
+            </li>
+            <li class="nav-header__content--items">
+              <a href="./propscss.html">Css Props</a>
             </li>
           </ul>
         </nav>
@@ -39,16 +42,9 @@
         <h2 class="aside__title">Anexos</h2>
         <ul class="nav-aside">
           <li class="nav-aside__items">
-            <a href="/">Tema 1</a>
-          </li>
-          <li class="nav-aside__items">
-            <a href="/">Tema 1</a>
-          </li>
-          <li class="nav-aside__items">
-            <a href="/">Tema 1</a>
-          </li>
-          <li class="nav-aside__items">
-            <a href="/">Tema 1</a>
+            <a href="https://www.w3.org/wiki/HTML_/_Elementos"
+              >Elementos Html</a
+            >
           </li>
         </ul>
       </aside>
@@ -58,27 +54,101 @@
           <article class="card">
             <div class="card__head">
               <p>No</p>
-              <p>Elemento</p>
-              <p>Definicion</p>
+              <p>Tag</p>
+              <p>Descripción</p>
             </div>
             <!-- repeat mas element -->
             <div class="card__body">
               <p>1</p>
-              <p>h1</p>
-              <p>Texto mayor</p>
+              <p>html</p>
+              <p>
+                representa la raiz de un documento HTML. El resto de elementos
+                descienden de este elemento.
+              </p>
             </div>
             <!-- repeat mas element -->
             <div class="card__body">
               <p>2</p>
-              <p>h2</p>
-              <p>Texto mayor 2</p>
+              <p>base</p>
+              <p>
+                El elemento HTML base especifica la dirección URL base que se
+                utilizará para todas las direcciones URL relativas contenidas
+                dentro de un documento. Sólo puede haber un elemento base en un
+                documento.
+              </p>
+            </div>
+            <div class="card__body">
+              <p>3</p>
+              <p>head</p>
+              <p>
+                provee información general (metadatos) acerca del documento,
+                incluyendo su título y enlaces a scripts y hojas de estilos.
+              </p>
+            </div>
+            <div class="card__body">
+              <p>4</p>
+              <p>link</p>
+              <p>
+                especifica la relación entre el documento actual y un recurso
+                externo.
+              </p>
+            </div>
+            <div class="card__body">
+              <p>5</p>
+              <p>meta</p>
+              <p>
+                metainformación. Sirve para aportar información sobre el
+                documento.
+              </p>
+            </div>
+            <div class="card__body">
+              <p>6</p>
+              <p>style</p>
+              <p>
+                Es el elemento encargado de indicar la información de estilo.
+              </p>
+            </div>
+            <div class="card__body">
+              <p>7</p>
+              <p>title</p>
+              <p>
+                El elemento title HTML define el título del documento que se
+                muestra en un Browser la barra de título o la pestaña de una
+                página.
+              </p>
+            </div>
+            <div class="card__body">
+              <p>8</p>
+              <p>body</p>
+              <p>
+                El elemento body de HTML representa el contenido de un documento
+                HTML. Solo puede haber un elemento body en un documento.
+              </p>
+            </div>
+            <div class="card__body">
+              <p>9</p>
+              <p>address</p>
+              <p>
+                El elemento HTML address aporta información de contacto para su
+                article más cercano o ancestro body; en el último caso lo aplica
+                a todo el documento
+              </p>
+            </div>
+            <div class="card__body">
+              <p>10</p>
+              <p>article</p>
+              <p>
+                El Elemento article de HTML (article) representa una composición
+                auto-contenida en un documento, página, una aplicación o en el
+                sitio, que se destina a distribuir de forma independiente.
+              </p>
             </div>
           </article>
         </div>
       </main>
       <footer class="footer">
         <p>©2022</p>
-        <p>Web Developert</p>
+        <p>webdeveloper @rdepazb</p>
       </footer>
     </div>
   </body>

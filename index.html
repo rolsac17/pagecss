@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wiki - Home</title>
+    <title>Introducción HTML y CSS</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -13,12 +13,13 @@
         <div class="header__top">
           <img
             class="header__top--img"
-            src="/public/images/1200px-HTML5_logo_and_wordmark.svg.png"
+            src="./public/images/html.png"
             alt="logo html5"
           />
+
           <div class="header__top--description">
             <h1>Desarrollo web</h1>
-            <p>Introduccion a HTML5</p>
+            <p>Introducción a HTML y CSS</p>
           </div>
         </div>
         <nav class="nav-header">
@@ -32,6 +33,9 @@
             <li class="nav-header__content--items">
               <a href="pages/attributes.html" target="_blank">Atributos</a>
             </li>
+            <li class="nav-header__content--items">
+              <a href="pages/propscss.html" target="_blank">Css Props</a>
+            </li>
           </ul>
         </nav>
       </header>
@@ -39,44 +43,81 @@
         <h2 class="aside__title">Anexos</h2>
         <ul class="nav-aside">
           <li class="nav-aside__items">
-            <a href="/">Tema 1</a>
+            <a
+              href="https://html.spec.whatwg.org/multipage/introduction.html#introduction"
+              >HTML Estandar de Vida</a
+            >
           </li>
           <li class="nav-aside__items">
-            <a href="/">Tema 1</a>
+            <a
+              href="https://html.spec.whatwg.org/multipage/infrastructure.html#infrastructure"
+              >Recomendaciones W3C:HTML5</a
+            >
           </li>
           <li class="nav-aside__items">
-            <a href="/">Tema 1</a>
+            <a href="https://css-tricks.com/">CSS Tricks</a>
           </li>
           <li class="nav-aside__items">
-            <a href="/">Tema 1</a>
+            <a href="https://developer.mozilla.org/es/docs/Web/CSS"
+              >CSS Tutoriales</a
+            >
           </li>
         </ul>
       </aside>
       <main class="main">
         <div class="u-container">
           <article class="main-article">
-            <h2>Que es HTML 5</h2>
+            <h2>¿Que es HTML 5?</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-              ipsam deserunt optio maiores non ipsum labore esse adipisci.
-              Ducimus accusamus neque itaque veniam quia officiis assumenda ut.
-              Aspernatur, cumque cum.
+              HTML es el lenguaje con el que se define el contenido de las
+              páginas web. Básicamente se trata de un conjunto de etiquetas que
+              sirven para definir el texto y otros elementos que compondrán una
+              página web, como imágenes, listas, vídeos, etc.
             </p>
           </article>
           <article class="main-article">
-            <h2>Que es HTML 5</h2>
+            <h2>¿Qué son los Elementos?</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-              ipsam deserunt optio maiores non ipsum labore esse adipisci.
-              Ducimus accusamus neque itaque veniam quia officiis assumenda ut.
-              Aspernatur, cumque cum.
+              HTML define el término elemento para referirse a las partes que
+              componen los documentos HTML. en realidad un elemento HTML es
+              mucho más que una etiqueta, ya que está formado por: Etiqueta de
+              apertura,cierre,atributos,texto.
+            </p>
+          </article>
+          <article class="main-article">
+            <h2>¿Qué son los Atributos?</h2>
+            <p>
+              Son palabras especiales utilizadas dentro de la etiqueta de
+              apertura, para controlar el comportamiento del elemento. Un
+              atributo tampoco modifica la funcionalidad por defecto de un tipo
+              de elemento o proporciona funcionalidad a ciertos tipos de
+              elementos.
+            </p>
+          </article>
+          <article class="main-article">
+            <h2>¿Qué es CSS?</h2>
+            <p>
+              CSS son las siglas en inglés de Cascading Style Sheets, que
+              significa «hojas de esilo en cascada». Es un lenguaje que se usa
+              para estilizar elementos escritos en un lenguaje de marcado como
+              HTML.
+            </p>
+          </article>
+          <article class="main-article">
+            <h2>¿Qué son las Propiedades CSS?</h2>
+            <p>
+              Las propiedades abreviadas son propiedades CSS que le permiten
+              establecer los valores de varias otras propiedades CSS
+              simultáneamente. Usando una propiedad abreviada, puede escribir
+              hojas de estilo más concisas (y a menudo más legibles), ahorrando
+              tiempo y energía.
             </p>
           </article>
         </div>
       </main>
       <footer class="footer">
         <p>©2022</p>
-        <p>Web Developert</p>
+        <p>webdeveloper @rdepazb</p>
       </footer>
     </div>
   </body>
