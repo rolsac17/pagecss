@@ -208,3 +208,27 @@ Está propiedad especifica qué tipo de borde mostrar, puede tener de uno a cuat
   border-style: dotted dashed solid double;
   }
 ```
+
+## border-width:
+
+Está propiedad puede tener de uno a cuatro valores (para el borde superior, el borde derecho, el borde inferior y el borde izquierdo):
+
+css```
+p.one {
+border-style: solid;
+border-width: 5px 20px; /_ 5px top and bottom, 20px on the sides _/
+}
+
+    p.two {
+    border-style: solid;
+    border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+    }
+
+    p.three {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+    }
+
+```
+
+```

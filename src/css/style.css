@@ -15,5 +15,5 @@ p {
 div {
   background-color: rgb(red, green, blue);
   background-color: #fff;
-  background-color: hsl(9, 100, 64);
+  background-image: url(./src/images/html.png);
 }
