@@ -2,28 +2,12 @@
 
 En este espació se encuentra la investigación de la tara de la semana:
 
-## background-color:
-
-Con esta propiedad se cambia el color de fondo del elemento html.
-
-    html {
-    background-color: blue;
-    }
-
 ## color:
 
 Con esta propiedad se le cambia el color al texto de un elemento.
 
     p {
         color: blueviolet;
-    }
-
-## border:
-
-Con esta propiedad al elemento se le agrega un bode solido de un tamaño definido en pixeles color azul violeta.
-
-    div {
-        border: 2px solid yellowgreen;
     }
 
 ## Valores del Color:
@@ -159,3 +143,34 @@ Forma abreviada:
     body {
     background: #ffffff url("img_tree.png") no-repeat right top;
     }
+
+## Borde CSS
+
+Las propiedades de borde de CSS permiten especificar el estilo, el ancho y el color del borde de un elemento.
+
+## border-style:
+
+Está propiedad especifica qué tipo de borde mostrar, puede tener de uno a cuatro valores (para el borde superior, el borde derecho, el borde inferior y el borde izquierdo).
+
+- dotted: Define un borde punteado
+- dashed: Define un borde discontinuo
+- solid: Define un borde sólido
+- double: Define un borde doble
+- groove: Define un borde ranurado 3D. El efecto depende del valor del color del borde.
+- ridge: Define un borde estriado 3D. El efecto depende del valor del color del borde.
+- inset: Define un borde de inserción 3D. El efecto depende del valor del color del borde.
+- outset: Define un borde inicial 3D. El efecto depende del valor del color del borde.
+- none: No define ningún borde
+- hidden: Define un borde oculto
+
+  p.dotted {border-style: dotted;}
+  p.dashed {border-style: dashed;}
+  p.solid {border-style: solid;}
+  p.double {border-style: double;}
+  p.groove {border-style: groove;}
+  p.ridge {border-style: ridge;}
+  p.inset {border-style: inset;}
+  p.outset {border-style: outset;}
+  p.none {border-style: none;}
+  p.hidden {border-style: hidden;}
+  p.mix {border-style: dotted dashed solid double;}
